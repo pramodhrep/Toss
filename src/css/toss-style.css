@@ -1,0 +1,33 @@
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover:not(.active) {
+    background-color: brown;
+  }
+
+.menuActive {
+    background-color: orange;
+  }
+
+.bg-dark{
+    background-color: transparent !important
+}
+
+.logo-img{
+    float: left;
+    margin: 0px 0px 0px 0px
+}
+
+.heading1{
+    color: brown;
+    text-decoration-color: darkblue
+}
+
+.bgAboutUs{
+    background-color: orange
+}
