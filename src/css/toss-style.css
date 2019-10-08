@@ -10,12 +10,19 @@ li a:hover:not(.active) {
     background-color: brown;
   }
 
+ /* Navbar Decoration */ 
+
 .menuActive {
     background-color: orange;
   }
 
-.bg-dark{
-    background-color: transparent !important
+.gradient{
+  background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0));
+  z-index: 99;
+}
+
+.bg-light{
+  background-color: transparent !important
 }
 
 .logo-img{
@@ -31,3 +38,121 @@ li a:hover:not(.active) {
 .bgAboutUs{
     background-color: orange
 }
+
+/* Recipies section*/
+
+.recipies-area{
+  background-color: #262626;
+  padding: 60px 0;
+}
+
+.section-heading{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 65px;
+  font-family: bignoodletitling !important;
+  letter-spacing: 5px;
+}
+
+.card{
+  border: none;
+  background-color: #fff; 
+  overflow: scroll;
+}
+
+.card-body{
+  overflow: scroll;
+}
+
+.img-area{
+  width: 100% !important;
+  display: inline-block;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.recipe-card:hover .side-one{
+  transform: rotateY(180deg);
+}
+
+.recipe-card:hover .side-two{
+  transform: rotateY(0deg);
+  border-radius: 5px;
+}
+
+.side-one{
+  position: relative;
+  transform: rotateY(0deg);
+  z-index: 2;
+  margin-bottom: 30px;
+}
+
+.side-two{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  transform: rotateY(-180deg);
+}
+
+.content-area{
+  transform: perspective(1000px);
+  transition: 1s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.side-one,.side-two{
+  backface-visibility: hidden;
+  transition: 1s;
+  transform-style: preserve-3d;
+}
+
+.side-one .card,
+.side-two .card{
+  height: 500px;
+}
+
+.veg{
+  background-color: #006400;
+}
+
+.non-veg{
+  background-color: #CC0000;
+}
+
+.side-one-text{
+  color: #fff;
+}
+
+.ingrediants-list{
+  text-align: left;
+}
+
+/*Contact Us*/
+.inline{
+  display: inline;
+}
+.bgContactUs{
+  background-color: orange;
+}
+/*Footer*/
+.footer-gradient{
+  background-image: linear-gradient(orange,black);
+  z-index: 99;
+}
+
+.footer-transp{
+  background-color: transparent !important
+}
+
+/*Remove spacing*/
+section,
+footer{
+  overflow: auto;
+}
+
+
+
