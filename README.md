@@ -1,20 +1,6 @@
-# [Start Bootstrap - Bare](https://startbootstrap.com/template-overviews/bare/)
+# [Start Bootstrap - Bare template used for this project](https://startbootstrap.com/template-overviews/bare/)
 
 [Bare](http://startbootstrap.com/template-overviews/bare/) is a bare HTML starter template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This template features predefined file paths for Bootstrap and jQuery, so you can quickly create Bootstrap websites.
-
-## Preview
-
-[![Bare Preview](https://startbootstrap.com/assets/img/templates/bare.jpg)](https://blackrockdigital.github.io/startbootstrap-bare/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-bare/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-bare/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-bare.svg)](https://www.npmjs.com/package/startbootstrap-bare)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-bare.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-bare)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-bare/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-bare)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-bare/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-bare?type=dev)
 
 ## Download and Installation
 
@@ -24,37 +10,22 @@ To begin using this template, choose one of the following options to get started
 * Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-bare.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-bare)
 
-## Usage
+## About Toss
 
-### Basic Usage
+In this busy world where it is highly impossible for people to cook food in their busy schedule, people rely on street food that is not amicable for health. At Toss, we believe that food at home is the best solution to stay healthy and we know what we consume. Toss is a cooking application designed to inspire men(Bachelors) to cook food. All the food items take very less time to prepare and with minimal ingrediants.
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+This app clearly display the list of food items, both vegetarian and non-vegetarian. When the food card is hovered, the ingrediants are shown for the users to have a quick glace. All the cards are colour coded, green for vegetarian and red for non-vegetarian. This becomes easy for the users to choose theit dish without any hesitation. 
 
-### Advanced Usage
+## Phases:
+* Identifying the problem and brainstorming for the solution
+* Wireframes: Designed wireframes to have outline of what the application should look like
+* Downloading the bootstrap bare template
+* Removed unnecessary blocks for the template and added a folder structure to standardise the project
+* Selected colour themes for the project Orange and White
+* Created various sections for the application and having reference from the navbar
+* Added grid to align the information to be displayed
+* Created cards using divs
+* Created custom css and used them in the document
+* Finally added the contact us and the footer
+* Used git to push the code to the repository in every phase
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-You must have npm and Gulp installed globally on your machine in order to use these features.
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-bare/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/bare/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-bare/blob/gh-pages/LICENSE) license.
