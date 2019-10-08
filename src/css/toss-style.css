@@ -131,14 +131,14 @@ li a:hover:not(.active) {
   text-align: left;
 }
 
-/*Contact Us*/
+/* Contact Us */
 .inline{
   display: inline;
 }
 .bgContactUs{
   background-color: orange;
 }
-/*Footer*/
+/* Footer */
 .footer-gradient{
   background-image: linear-gradient(orange,black);
   z-index: 99;
@@ -148,7 +148,7 @@ li a:hover:not(.active) {
   background-color: transparent !important
 }
 
-/*Remove spacing*/
+/* Remove spacing */
 section,
 footer{
   overflow: auto;
