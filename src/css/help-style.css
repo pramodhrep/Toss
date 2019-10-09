@@ -1,0 +1,8 @@
+ul#rating li {
+    display:inline;
+  }
+
+.className {
+    -webkit-appearance: menulist-button;
+    height: 50px;
+ }
